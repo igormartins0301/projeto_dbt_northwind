@@ -1,0 +1,87 @@
+[0m20:02:58.764673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff932317b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff930d1dbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff933aeb7d0>]}
+
+
+============================== 20:02:58.784883 | ee08192d-b373-40e5-8e18-aa574bac6db1 ==============================
+[0m20:02:58.784883 [info ] [MainThread]: Running with dbt=1.8.2
+[0m20:02:58.785767 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/igor-ubuntu/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:17:23.087297 [debug] [MainThread]: Starter project path: /home/igor-ubuntu/.cache/pypoetry/virtualenvs/northwinddbt-ylEFd-0i-py3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:17:23.182410 [info ] [MainThread]: 
+Your new dbt project "northwind" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:17:23.187615 [info ] [MainThread]: Setting up your profile.
+[0m21:21:03.746568 [info ] [MainThread]: Profile northwind written to /home/igor-ubuntu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:21:03.787638 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 3483.8083, "process_user_time": 4.697245, "process_kernel_time": 0.291068, "process_mem_max_rss": "102412", "process_in_blocks": "2400", "process_out_blocks": "30008"}
+[0m21:21:03.804906 [debug] [MainThread]: Command `dbt init` succeeded at 21:21:03.802936 after 3483.85 seconds
+[0m21:21:03.823374 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff9340aeff0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff9308f7e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff93071fd70>]}
+[0m21:21:03.834553 [debug] [MainThread]: Flushing usage events
+[0m21:22:03.177683 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa628ebcb60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa62a058ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6297b6750>]}
+
+
+============================== 21:22:03.200159 | 82186c1a-546d-4776-b8d5-4d5d3e307939 ==============================
+[0m21:22:03.200159 [info ] [MainThread]: Running with dbt=1.8.2
+[0m21:22:03.202585 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/igor-ubuntu/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:22:03.551068 [info ] [MainThread]: dbt version: 1.8.2
+[0m21:22:03.553025 [info ] [MainThread]: python version: 3.12.3
+[0m21:22:03.554686 [info ] [MainThread]: python path: /home/igor-ubuntu/.cache/pypoetry/virtualenvs/northwinddbt-ylEFd-0i-py3.12/bin/python
+[0m21:22:03.556674 [info ] [MainThread]: os info: Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[0m21:22:04.076972 [info ] [MainThread]: Using profiles dir at /home/igor-ubuntu/.dbt
+[0m21:22:04.078883 [info ] [MainThread]: Using profiles.yml file at /home/igor-ubuntu/.dbt/profiles.yml
+[0m21:22:04.081479 [info ] [MainThread]: Using dbt_project.yml file at /home/igor-ubuntu/projetos_completos/NorthwindDbt/dbt_project.yml
+[0m21:22:04.127728 [info ] [MainThread]: adapter type: postgres
+[0m21:22:04.130440 [info ] [MainThread]: adapter version: 1.8.1
+[0m21:22:04.134101 [info ] [MainThread]: Configuration:
+[0m21:22:04.136297 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:22:04.147510 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:22:04.149913 [info ] [MainThread]: Required dependencies:
+[0m21:22:04.152386 [debug] [MainThread]: Executing "git --help"
+[0m21:22:04.166197 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:22:04.169011 [debug] [MainThread]: STDERR: "b''"
+[0m21:22:04.171092 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:22:04.173439 [info ] [MainThread]: Connection:
+[0m21:22:04.184616 [info ] [MainThread]:   host: northwind.c96kwaegqlov.us-east-1.rds.amazonaws.com
+[0m21:22:04.187045 [info ] [MainThread]:   port: 5432
+[0m21:22:04.189489 [info ] [MainThread]:   user: postgres
+[0m21:22:04.191643 [info ] [MainThread]:   database: northwind
+[0m21:22:04.204054 [info ] [MainThread]:   schema: public
+[0m21:22:04.206558 [info ] [MainThread]:   connect_timeout: 10
+[0m21:22:04.209016 [info ] [MainThread]:   role: None
+[0m21:22:04.211430 [info ] [MainThread]:   search_path: None
+[0m21:22:04.213783 [info ] [MainThread]:   keepalives_idle: 0
+[0m21:22:04.222968 [info ] [MainThread]:   sslmode: None
+[0m21:22:04.226120 [info ] [MainThread]:   sslcert: None
+[0m21:22:04.228548 [info ] [MainThread]:   sslkey: None
+[0m21:22:04.230864 [info ] [MainThread]:   sslrootcert: None
+[0m21:22:04.239903 [info ] [MainThread]:   application_name: dbt
+[0m21:22:04.245097 [info ] [MainThread]:   retries: 1
+[0m21:22:04.249080 [info ] [MainThread]: Registered adapter: postgres=1.8.1
+[0m21:22:04.302928 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m21:22:05.025172 [debug] [MainThread]: Using postgres connection "debug"
+[0m21:22:05.027220 [debug] [MainThread]: On debug: select 1 as id
+[0m21:22:05.028683 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:22:06.669342 [debug] [MainThread]: SQL status: SELECT 1 in 2.0 seconds
+[0m21:22:06.675267 [debug] [MainThread]: On debug: Close
+[0m21:22:06.680469 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:22:06.682774 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:22:06.684732 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/igor-ubuntu/projetos_completos/NorthwindDbt/dbt_project.yml> not found
+
+[0m21:22:06.687764 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 3.8879378, "process_user_time": 11.217299, "process_kernel_time": 5.234739, "process_mem_max_rss": "100984", "process_in_blocks": "488", "process_out_blocks": "320", "command_success": false}
+[0m21:22:06.691724 [debug] [MainThread]: Command `dbt debug` failed at 21:22:06.691081 after 3.89 seconds
+[0m21:22:06.693952 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:22:06.695988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa62991c9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa62917ecf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa628d889b0>]}
+[0m21:22:06.698092 [debug] [MainThread]: Flushing usage events
